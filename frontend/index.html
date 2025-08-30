@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+  <div id="root"></div>
+
+  <!-- Smile Chat Widget container -->
+  <div id="smile-chat-widget"></div>
+
+  <!-- Scripts -->
+  <script type="module" src="/src/main.jsx"></script>
+
+  <script>
+    window.SmileChatConfig = {
+      apiUrl: 'http://103.101.59.127:3100',
+      theme: {
+        primaryColor: '#4CAF50'
+      }
+    };
+  </script>
+
+  <script src="https://farhankhan-waapcoder.github.io/smile-bot/smile-chat.js"></script>
+</body>
+
+</html>
